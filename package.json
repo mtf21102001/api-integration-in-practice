@@ -1,0 +1,24 @@
+{
+  "name": "api-integration-in-practice",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Practical API integration patterns in TypeScript: one small runnable example per topic.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "part1": "tsx 01-why-integrations-break/demo.ts",
+    "part1:server": "tsx 01-why-integrations-break/start-server.ts",
+    "part2": "tsx 02-rest-soap-graphql/demo.ts",
+    "part3": "tsx 03-authentication/demo.ts",
+    "test": "node --import tsx --test \"**/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
