@@ -12,6 +12,11 @@
     "part1:server": "tsx 01-why-integrations-break/start-server.ts",
     "part2": "tsx 02-rest-soap-graphql/demo.ts",
     "part3": "tsx 03-authentication/demo.ts",
+    "part4": "tsx 04-canonical-model/demo.ts",
+    "part5": "tsx 05-retries-backoff/demo.ts",
+    "part6": "tsx 06-rate-limiting/demo.ts",
+    "part7": "tsx 07-idempotency/demo.ts",
+    "part8": "tsx 08-webhooks/demo.ts",
     "test": "node --import tsx --test \"**/*.test.ts\"",
     "typecheck": "tsc --noEmit"
   },

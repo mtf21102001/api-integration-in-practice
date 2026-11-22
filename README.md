@@ -18,6 +18,11 @@ npm install
 npm run part1   # a flaky API vs a naive and a defensive client
 npm run part2   # REST, SOAP and GraphQL errors -> one result type
 npm run part3   # API keys, OAuth2 token refresh, HMAC signing
+npm run part4   # three providers, one canonical model
+npm run part5   # retries with exponential backoff and jitter
+npm run part6   # a token bucket vs a rate-limited API
+npm run part7   # idempotency keys: no double charges
+npm run part8   # webhooks: signatures, duplicates, ordering
 npm test        # all tests
 ```
 
@@ -30,11 +35,11 @@ No external services, no API keys: every example runs locally.
 | 01 | [Why integrations break](01-why-integrations-break) | ✅ |
 | 02 | [REST vs SOAP vs GraphQL: how each one fails](02-rest-soap-graphql) | ✅ |
 | 03 | [Authentication: API keys, OAuth2 and request signing](03-authentication) | ✅ |
-| 04 | One model for many APIs: canonical model and adapters | ⏳ Soon |
-| 05 | Retries and exponential backoff | ⏳ Soon |
-| 06 | Rate limiting without getting blocked | ⏳ Soon |
-| 07 | Idempotency: never charge a customer twice | ⏳ Soon |
-| 08 | Webhooks: signatures and duplicate deliveries | ⏳ Soon |
+| 04 | [One model for many APIs: canonical model and adapters](04-canonical-model) | ✅ |
+| 05 | [Retries and exponential backoff](05-retries-backoff) | ✅ |
+| 06 | [Rate limiting without getting blocked](06-rate-limiting) | ✅ |
+| 07 | [Idempotency: never charge a customer twice](07-idempotency) | ✅ |
+| 08 | [Webhooks: signatures and duplicate deliveries](08-webhooks) | ✅ |
 | 09 | Logging and observability for integrations | ⏳ Soon |
 | 10 | Putting it all together in NestJS | ⏳ Soon |
 
