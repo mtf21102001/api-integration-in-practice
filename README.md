@@ -23,6 +23,8 @@ npm run part5   # retries with exponential backoff and jitter
 npm run part6   # a token bucket vs a rate-limited API
 npm run part7   # idempotency keys: no double charges
 npm run part8   # webhooks: signatures, duplicates, ordering
+npm run part9   # structured logs, correlation ids, per-provider metrics
+npm run part10  # all of it in one NestJS app
 npm test        # all tests
 ```
 
@@ -40,18 +42,18 @@ No external services, no API keys: every example runs locally.
 | 06 | [Rate limiting without getting blocked](06-rate-limiting) | ✅ |
 | 07 | [Idempotency: never charge a customer twice](07-idempotency) | ✅ |
 | 08 | [Webhooks: signatures and duplicate deliveries](08-webhooks) | ✅ |
-| 09 | Logging and observability for integrations | ⏳ Soon |
-| 10 | Putting it all together in NestJS | ⏳ Soon |
+| 09 | [Logging and observability for integrations](09-observability) | ✅ |
+| 10 | [Putting it all together in NestJS](10-nestjs) | ✅ |
 
 ## 🧰 Stack
 
 TypeScript · Node.js (built-in `fetch`, `http`, `crypto` and `node:test`) · NestJS (part 10)
 
-Dependencies are dev-only (`typescript`, `tsx`), so the patterns stay easy to read and copy.
+Parts 01–09 use only Node.js built-ins, so the patterns stay easy to read and copy. NestJS is used in part 10 only.
 
-## ⭐ Follow along
+## ⭐ Found it useful?
 
-Star or watch the repo to get notified when a new part lands.
+A star helps other people find it.
 
 ## License
 
